@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Transformer</title>
+    <script src="./index.js" defer></script>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-inline: 20px;
+      }
+      .main {
+        max-width: 800px;
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+      }
+      .main input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid gray;
+        outline: none;
+        /* border-radius: 5px; */
+      }
+      ::placeholder {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      .main .stringBox {
+        width: 100%;
+        background-color: antiquewhite;
+        padding: 20px 13px;
+        margin-top: 30px;
+        position: relative;
+      }
+      .stringBox span {
+        display: inline-block;
+        padding: 5px 4px;
+        font-size: 13px;
+        background: #000;
+        color: white;
+        position: absolute;
+        top: -13px;
+      }
+      .stringBox p {
+        margin: 0;
+        padding-top: 5px;
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <input type="text" placeholder="Enter a string" class="inputVal" />
+      <div class="stringBox">
+        <span>Lower Case</span>
+        <p class="lowerCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Upper Case</span>
+        <p class="upperCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Camel Case</span>
+        <p class="camelCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Pascal Case</span>
+        <p class="pascalCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Capitalize Case</span>
+        <p class="capitalizeCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Snake Case</span>
+        <p class="snakeCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Kebab Case</span>
+        <p class="kebabCase"></p>
+      </div>
+      <div class="stringBox">
+        <span>Trim Case</span>
+        <p class="trimCase"></p>
+      </div>
+    </div>
+  </body>
+</html>

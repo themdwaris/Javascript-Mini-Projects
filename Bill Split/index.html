@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Spliter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="boxes">
+            <div class="leftBox box">
+                <h3 class="sameColor">Bill</h3>
+                <div class="input">
+                    <span>&#8377;</span>
+                    <input type="number" placeholder="Enter amount" class="amountInput" required>
+                    <h3 class="sameColor">Select Tip</h3>
+                </div>
+                <div class="selectBox">
+                    <button class="btn" disabled >5%</button>
+                    <button class="btn" disabled>10%</button>
+                    <button class="btn" disabled>15%</button>
+                    <button class="btn" disabled>20%</button>
+                    <button class="btn" disabled>25%</button>
+                    <button class="btn" disabled>30%</button>
+                </div>
+                <div class="customTip">
+                    <input type="number" placeholder="Custom Tip" class="customTipp" disabled>
+                    <h4 class="sameColor">Number of people</h4>
+                    <input type="number" placeholder="Enter no. of people" class="numOfPeople" disabled>
+                </div>
+                <button type="submit" class="submit" disabled>Generate Bill</button>
+            </div>
+            <div class="rightBox box">
+                <div class="rightWrapper">
+                    <div class="contentRow">
+                        <h4>Tip amount</h4> <span class="amount">&#8377; <span class="amount tipAmount"></span></span>
+                    </div>
+                    <div class="contentRow">
+                        <h4>Total</h4> <span class="amount">&#8377; <span class="amount total"></span></span>
+                    </div>
+                    <div class="contentRow">
+                        <h4 class="">Each person bill</h4> <span class="amount ">&#8377; <span class="amount eachPB"></span></span>
+                    </div>
+                    
+                </div>
+                <button class="reset" disabled>Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

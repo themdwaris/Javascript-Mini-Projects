@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessTheNumber</title>
+    <script src="./index.js" defer></script>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .lowHi{
+            margin-block: 20px;
+        }
+        .remain{
+            margin-bottom: 20px;
+        }
+        button{
+            border: none;
+            outline: none;
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 16px;
+            /* background-color: rgb(169, 86, 246); */
+            /* color: white; */
+            border: 1px solid rgb(0, 0, 0);
+            margin-top: 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            /*  */
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+        input{
+            width: 100%;
+            max-width: 250px;
+            padding: 6px 5px;
+            border: 2px solid rgb(169, 86, 246);
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>Guess a number between 0 to 100.</h2>
+        <p>Note: You have only 10 attempts.</p>
+        <form action="">
+            <input type="number" name="" id="">
+            <button type="submit" class="submitBtn">Submit</button>
+            <button type="button" class="startGame" disabled>Play Again</button>
+            <div class="result">
+                <div class="lowHi"></div>
+                <div class="remain"> </div>
+                <div class="totalTry"> </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

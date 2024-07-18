@@ -1,0 +1,24 @@
+  <img src="" alt="flag" />
+        <div class="textContainer">
+          <h1>India</h1>
+          <div class="detailText">
+            <div class="detailRightText">
+              <p><span>Native Name:</span> India</p>
+              <p><span>Population:</span> 937878382</p>
+              <p><span>Region:</span> Asia</p>
+              <p><span>Sub Region:</span> Western Asia</p>
+              <p><span>Capital:</span> Delhi</p>
+            </div>
+            <div class="detailLeftText">
+              <p><span>Top Level Domain: </span> in</p>
+              <p><span>Currencies: </span> Rupee</p>
+              <p><span>Language: </span>Hindi</p>
+            </div>
+          </div>
+          <div class="border">
+            <p>
+              <span>Border Countries:</span>
+              <a href="">Border</a>
+            </p>
+          </div>
+        </div>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Countries</title>
+  </head>
+  <body >
+    <header class="header">
+      <div class="header-content">
+        <h2>Where in the World</h2>
+        <p class="darkmode"><ion-icon name="moon-outline"></ion-icon> DarkMode</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="searchFilter">
+        <div class="searchContainer">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="text" placeholder="Search country">
+        </div>
+        <div class="selectOption">
+          <select name="" id="" class="filterRegion">
+            <option hidden>Filter by region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+        <div class="countryContainer">
+          
+        </div>
+    </main>
+
+   
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
