@@ -1,7 +1,7 @@
 In this repository you will find some javascript mini projects, You can use this source code to build your projects .
 
 1- Auto Typing Effect
-Live url- [](https://js-auto-typing-effect.netlify.app/)
+Live url- https://js-auto-typing-effect.netlify.app/
 
 2- Bill Spliter
 Live url- [](https://js-bill-spliter.netlify.app/)
